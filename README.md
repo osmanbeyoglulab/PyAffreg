@@ -12,7 +12,7 @@ After taining the model, We want to predict the interaction between D and new fe
 
 **Class functions**: 
 
-	**fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )**
+	** fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True ) **
 	# train the model 
 	# parameters:		
 		D: left matrix
