@@ -12,30 +12,30 @@ After taining the model, We want to predict the interaction between D and new fe
 
 **Class functions**: 
 
-    fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
-		# train the model 
-		# parameters:		
-			D: left matrix
-			P_train: right matrix, train sample of P
-			Y_train: interation, train sample of Y
-			lamda: L1 regulization
-			rsL2:  L2 regulization
-			sectrumA: percent spectrum to keep (0,1] for left matrix
-			sectrumB: percent spectrum to keep (0,1] for right matrix
+	fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
+	# train the model 
+	# parameters:		
+		D: left matrix
+		P_train: right matrix, train sample of P
+		Y_train: interation, train sample of Y
+		lamda: L1 regulization
+		rsL2:  L2 regulization
+		sectrumA: percent spectrum to keep (0,1] for left matrix
+		sectrumB: percent spectrum to keep (0,1] for right matrix
 	
 	predict(P_test)
-		 # predidct the interaction on test samples of P
-         # parameters:
-			P_test: test sample of P. 
+	# predidct the interaction on test samples of P
+        # parameters:
+		P_test: test sample of P. 
 	
-    get_W()
+    	get_W()
         # retrieve trained parameters W
         
-    corPlot (Y_pred, Y_test)
-	    # calculate the correlation between Y_pred with ground truth, and plot the their correlation
-		# parameters:
-		    Y_pred: predicted interaction from predict function, 
-			Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
+    	corPlot (Y_pred, Y_test)
+	# calculate the correlation between Y_pred with ground truth, and plot the their correlation
+	# parameters:
+		Y_pred: predicted interaction from predict function, 
+	    	Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
 					
 ### How to run
 
@@ -44,7 +44,7 @@ After taining the model, We want to predict the interaction between D and new fe
 
 Affreg calls a few cython customerized extensions which need to be built on site
 
-##### - build cythLeastR extention modue
+** - build cythLeastR extention modue **
     
 1)  Goto folder "cythKrnPlus built", then execute command:
  
@@ -54,7 +54,7 @@ It will generate the file cythLeastR.cpython-37m-x86_64-linux-gnu.so (Mac or Lin
     
 2) Copy the file into pyAffreg folder
 
-##### - build cythKrnPlus extention modue
+** - build cythKrnPlus extention modue **
     
 1) Goto folder "cythKrnPlus built", then execute command:
 
