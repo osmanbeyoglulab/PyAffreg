@@ -3,7 +3,7 @@
 ## About AffReg Class
 **Class name**: AffReg. 
 
-**Class descrition**: Affinity regression(AffReg) explains the interaction between two objects.
+**Class description**: Affinity regression(AffReg) explains the interaction between two objects.
 
     D * W * P.T ~ Y
 D is a given object feature, P is the other object feature, Y is the interaction between D and P.
