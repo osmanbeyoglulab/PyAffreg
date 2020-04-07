@@ -28,7 +28,7 @@ After taining the model, We want to predict the interaction between D and new fe
         # parameters:
 		P_test: test sample of P. 
 	
-    	get_W()
+	get_W()
         # retrieve trained parameters W
         
     	corPlot (Y_pred, Y_test)
