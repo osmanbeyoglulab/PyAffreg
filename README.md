@@ -40,9 +40,9 @@ After taining the model, We want to predict the interaction between D and new fe
 ## How to run
 
 #### 1. Download PyAffreg
-#### 2. Build Bython extension module
+#### 2. Build Cython extension module
 
-Affreg calls a few cython customerized extensions which need to be built on site
+Affreg calls 2 cython customerized extensions which need to be built on site
 
 - build cythLeastR extention modue 
     
