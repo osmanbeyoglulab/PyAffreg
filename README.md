@@ -39,8 +39,8 @@ After taining the model, We want to predict the interaction between D and new fe
 					
 ## How to run
 
-### 1. Download PyAffreg
-### 2. Build Bython extension module
+#### 1. Download PyAffreg
+#### 2. Build Bython extension module
 
 Affreg calls a few cython customerized extensions which need to be built on site
 
@@ -64,7 +64,7 @@ It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Li
     
 2) Copy the file into pyAffreg folder
 
-### 3. Use AffReg class
+#### 3. Use AffReg class
 
 1) Import the class
         
