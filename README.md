@@ -77,7 +77,7 @@ It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Li
 3) Train the model
         
         reg.fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
-        # lamda, reL2, spectrumA, spectrumB can be changed, aboves are the default falue
+        # lamda, reL2, spectrumA, spectrumB can be changed based on characteristics of data, listed above are the default values
 4) Predict Y
         
         pred_Y = reg.predict(P_test)
