@@ -1,5 +1,4 @@
-# pyAffreg
-## Affinity regression  Python/Cython/C implementation
+# pyAffreg  <span style="font-size:smaller;">(Affinity regression  Python/Cython/C implementation)</span>
 
 ### Definition of AffReg class
 **Class name**: AffReg. 
