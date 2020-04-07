@@ -1,6 +1,6 @@
 # pyAffreg  <span style="font-size:smaller;">(Affinity regression  Python/Cython/C implementation)</span>
 
-### Definition of AffReg class
+### About AffReg Class
 **Class name**: AffReg. 
 
 **Class descrition**: Affinity regression(AffReg) explains the interaction between two objects.
@@ -37,28 +37,34 @@ After taining the model, We want to predict the interaction between D and new fe
 		    Y_pred: predicted interaction from predict function, 
 			Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
 					
-### Build extention
-Affreg calls a few python customerized extensions which need to be built on site
+### How to run
 
-- build cythLeastR extention modue
+#### 1. Download PyAffreg
+#### 2. Build Bython extension module
+
+Affreg calls a few cython customerized extensions which need to be built on site
+
+##### - build cythLeastR extention modue
     
-    1) Goto folder "cythKrnPlus built", then execute command:
+1)  Goto folder "cythKrnPlus built", then execute command:
+ 
         python setup.py build_ext --inplace
-    
-    It will generate the file cythLeastR.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythLeastR.cp37-win_amd64.pyd (Windows). 
-    
-    2) Copy the file into pyAffreg folder
 
-- build cythKrnPlus extention modue
+It will generate the file cythLeastR.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythLeastR.cp37-win_amd64.pyd (Windows). 
     
-    1) Goto folder "cythKrnPlus built", then execute command:
-        python setup.py build_ext --inplace
-    
-    It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythKrnPlus.cp37-win_amd64.pyd (Windows). 
-    
-    2) Copy the file into pyAffreg folder
+2) Copy the file into pyAffreg folder
 
-### Usage of AffReg
+##### - build cythKrnPlus extention modue
+    
+1) Goto folder "cythKrnPlus built", then execute command:
+
+    python setup.py build_ext --inplace
+    
+It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythKrnPlus.cp37-win_amd64.pyd (Windows). 
+    
+2) Copy the file into pyAffreg folder
+
+#### 3. Use AffReg class
 
 1) Import the class
         
