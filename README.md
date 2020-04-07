@@ -24,18 +24,18 @@ After taining the model, We want to predict the interaction between D and new fe
 			sectrumB: percent spectrum to keep (0,1] for right matrix
 	
 	predict(P_test)
-	# predidct the interaction on test samples of P
-	# parameters:
-		P_test: test sample of P. 
+		# predidct the interaction on test samples of P
+		# parameters:
+			P_test: test sample of P. 
 	
 	get_W()
-	# retrieve trained parameters W
+		# retrieve trained parameters W
         
 	corPlot (Y_pred, Y_test)
-	# calculate the correlation between Y_pred with ground truth, and plot the their correlation
-	# parameters:
-		Y_pred: predicted interaction from predict function, 
-	    	Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
+		# calculate the correlation between Y_pred with ground truth, and plot the their correlation
+		# parameters:
+			Y_pred: predicted interaction from predict function, 
+	    		Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
 					
 ### How to run
 
