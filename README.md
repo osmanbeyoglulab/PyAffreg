@@ -25,7 +25,7 @@ After taining the model, We want to predict the interaction between D and new fe
 	
 	predict(P_test)
 	# predidct the interaction on test samples of P
-        # parameters:
+	# parameters:
 		P_test: test sample of P. 
 	
 	get_W()
