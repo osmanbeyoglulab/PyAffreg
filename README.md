@@ -52,39 +52,39 @@ Affreg calls a few cython customerized extensions which need to be built on site
 
 It will generate the file cythLeastR.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythLeastR.cp37-win_amd64.pyd (Windows). 
     
-2) Copy the file into pyAffreg folder
+2)) Copy the file into pyAffreg folder
 
 - build cythKrnPlus extention modue 
     
-1) Goto folder "cythKrnPlus built", then execute command:
+1)) Goto folder "cythKrnPlus built", then execute command:
 
     python setup.py build_ext --inplace
     
 It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Linux), or cythKrnPlus.cp37-win_amd64.pyd (Windows). 
     
-2) Copy the file into pyAffreg folder
+2)) Copy the file into pyAffreg folder
 
 #### 3. Use AffReg class
 
-1) Import the class
+1)) Import the class
         
         from AffinityRegression import AffReg
 
-2) Define the object of the class
+2)) Define the object of the class
         
         reg = AffReg()
 
-3) Train the model
+3)) Train the model
         
         reg.fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
         # lamda, reL2, spectrumA, spectrumB can be changed based on characteristics of data, listed above are the default values
-4) Predict Y
+4)) Predict Y
         
         pred_Y = reg.predict(P_test)
    After training the model, you can also retrieve the trained parameter W with
         
         pred_W = reg.get_W()
-5) Check the performance and plot the correlation
+5)) Check the performance and plot the correlation
         
         corr = reg.corPlot(Y_pred, Y_test)
 
