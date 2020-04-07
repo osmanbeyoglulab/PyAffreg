@@ -29,7 +29,7 @@ After taining the model, We want to predict the interaction between D and new fe
 		P_test: test sample of P. 
 	
 	get_W()
-        # retrieve trained parameters W
+	# retrieve trained parameters W
         
 	corPlot (Y_pred, Y_test)
 	# calculate the correlation between Y_pred with ground truth, and plot the their correlation
