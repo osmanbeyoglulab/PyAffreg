@@ -46,7 +46,7 @@ Affreg calls a few cython customerized extensions which need to be built on site
 
 - build cythLeastR extention modue 
     
-1)  Goto folder "cythKrnPlus built", then execute command:
+1))  Goto folder "cythKrnPlus built", then execute command:
  
         python setup.py build_ext --inplace
 
