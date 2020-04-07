@@ -13,15 +13,15 @@ After taining the model, We want to predict the interaction between D and new fe
 **Class functions**: 
 
 	fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
-	# train the model 
-	# parameters:		
-		D: left matrix
-		P_train: right matrix, train sample of P
-		Y_train: interation, train sample of Y
-		lamda: L1 regulization
-		rsL2:  L2 regulization
-		sectrumA: percent spectrum to keep (0,1] for left matrix
-		sectrumB: percent spectrum to keep (0,1] for right matrix
+		# train the model 
+		# parameters:		
+			D: left matrix
+			P_train: right matrix, train sample of P
+			Y_train: interation, train sample of Y
+			lamda: L1 regulization
+			rsL2:  L2 regulization
+			sectrumA: percent spectrum to keep (0,1] for left matrix
+			sectrumB: percent spectrum to keep (0,1] for right matrix
 	
 	predict(P_test)
 	# predidct the interaction on test samples of P
