@@ -12,7 +12,7 @@ After taining the model, We want to predict the interaction between D and new fe
 
 **Class functions**: 
 
-	fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )
+	**fit(D,  P_train, Y_train, lamda = 0.001, rsL2 = 0, spectrumA = 1 spectrumB = 0.7, norm=True )**
 	# train the model 
 	# parameters:		
 		D: left matrix
@@ -23,15 +23,15 @@ After taining the model, We want to predict the interaction between D and new fe
 		sectrumA: percent spectrum to keep (0,1] for left matrix
 		sectrumB: percent spectrum to keep (0,1] for right matrix
 	
-	predict(P_test)
+	**predict(P_test)**
 	# predidct the interaction on test samples of P
 	# parameters:
 		P_test: test sample of P. 
 	
-	get_W()
+	**get_W()**
 	# retrieve trained parameters W
         
-	corPlot (Y_pred, Y_test)
+	**corPlot (Y_pred, Y_test)**
 	# calculate the correlation between Y_pred with ground truth, and plot the their correlation
 	# parameters:
 		Y_pred: predicted interaction from predict function, 
