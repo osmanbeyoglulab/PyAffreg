@@ -44,7 +44,7 @@ After taining the model, We want to predict the interaction between D and new fe
 
 Affreg calls a few cython customerized extensions which need to be built on site
 
-** - build cythLeastR extention modue **
+- build cythLeastR extention modue 
     
 1)  Goto folder "cythKrnPlus built", then execute command:
  
@@ -54,7 +54,7 @@ It will generate the file cythLeastR.cpython-37m-x86_64-linux-gnu.so (Mac or Lin
     
 2) Copy the file into pyAffreg folder
 
-** - build cythKrnPlus extention modue **
+- build cythKrnPlus extention modue 
     
 1) Goto folder "cythKrnPlus built", then execute command:
 
