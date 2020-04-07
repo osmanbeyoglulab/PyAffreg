@@ -5,7 +5,7 @@
 
 **Class descrition**: Affinity regression(AffReg) explains the interaction between two objects.
 
-    D * W * P<sup>T</sup> ~ Y
+    D * W * P.T ~ Y
 D is a given object feature, P is the other object feature, Y is the interaction between D and P.
 
 After taining the model, We want to predict the interaction between D and new features of P.
