@@ -1,6 +1,6 @@
 # PyAffreg  <span style="font-size:smaller;">(Affinity regression  Python/Cython/C implementation)</span>
 
-### About AffReg Class
+## About AffReg Class
 **Class name**: AffReg. 
 
 **Class descrition**: Affinity regression(AffReg) explains the interaction between two objects.
@@ -37,10 +37,10 @@ After taining the model, We want to predict the interaction between D and new fe
 			Y_pred: predicted interaction from predict function, 
 	    		Y_test: the ground truth value of Y, usually it is the test dataset from data splitting
 					
-### How to run
+## How to run
 
-#### 1. Download PyAffreg
-#### 2. Build Bython extension module
+### 1. Download PyAffreg
+### 2. Build Bython extension module
 
 Affreg calls a few cython customerized extensions which need to be built on site
 
@@ -64,7 +64,7 @@ It will generate the file cythKrnPlus.cpython-37m-x86_64-linux-gnu.so (Mac or Li
     
 2) Copy the file into pyAffreg folder
 
-#### 3. Use AffReg class
+### 3. Use AffReg class
 
 1) Import the class
         
